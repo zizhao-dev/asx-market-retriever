@@ -1,20 +1,19 @@
-<<<<<<< HEAD
-# ASX Intraday Analyzer
+ASX Market Analyzer
 
-Fetches ASX market data using yfinance,
-creates daily OHLC summaries with high/low timestamps,
-and exports results to Excel.
+Simple Python tool for analysing ASX stocks with yfinance.
 
-## Run
+Features
+
+Multiple ASX tickers
+
+Custom period and interval
+
+Excel export
+
+Run:
+
 python main.py
 
-## Example input
-BHP,CBA,WES
+Example input: BHP,CBA,WES
 
-This project is intended for educational and personal research purposes.
-Market data is retrieved using yfinance. Users are responsible for complying
-with Yahoo Finance's applicable terms of use.
-=======
-# Initial-ASX-market-analyzer
-Fetches ASX market data using yfinance
->>>>>>> 5d935f3ba48930c4b1f507c1f40b0fe192b89540
+For educational and personal research purposes only.
