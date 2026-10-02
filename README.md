@@ -1,6 +1,6 @@
-ASX Market Analyzer
+ASX Market Retriever
 
-Simple Python tool for analysing ASX stocks with yfinance.
+Simple Python tool for retrieving ASX stocks with yfinance.
 
 Features
 
