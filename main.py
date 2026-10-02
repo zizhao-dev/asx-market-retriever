@@ -3,15 +3,25 @@ import pandas as pd
 
 
 print("""
+ASX Market Analyzer
+
+Available periods:
+1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max
+
 Available intervals:
-1m          → ~30 days max
-2m-90m      → ~60 days max
-1h / 60m    → ~730 days max
-1d or above → long-term history (1y, 5y, 10y, max)
+1m              → up to 8 days
+2m / 5m / 15m
+30m / 90m       → up to 60 days
+60m / 1h        → up to 730 days
+1d / 5d
+1wk / 1mo / 3mo → long-term history
+
+Period   = how far back to retrieve
+Interval = size of each price candle
 """)
 
 period = input("Enter period (e.g. 60d, 1y, 5y, max): ").strip() or "60d"
-interval = input("Enter interval (e.g. 5m, 1h, 1wk, 3mo): ").strip() or "5m"
+interval = input("Enter interval (e.g. 5m, 1h, 1d, 1wk, 1mo): ").strip() or "5m"
 
 
 def get_price_history(ticker):
