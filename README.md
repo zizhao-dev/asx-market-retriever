@@ -1,6 +1,6 @@
 # ASX Intraday Analyzer
 
-Fetches 5-minute ASX market data using yfinance,
+Fetches ASX market data using yfinance,
 creates daily OHLC summaries with high/low timestamps,
 and exports results to Excel.
 
